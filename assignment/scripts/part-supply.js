@@ -22,7 +22,6 @@ console.log('4. Removed item: ' + supplyChanges.pop());
 supplyChanges.push(25);
 console.log('5. Adding 25 to supplyChanges. ' + supplyChanges);
 
-console.log(`---------------------------------------------------`);
 // 6. Write a `for` loop that shows each value in the 'supplyChanges' array
 //    Use a console.log formatted as follows, where x is the value from the array
 //    - if it is a positive number (greater than 0), log 'Added x parts.' 
@@ -41,7 +40,7 @@ for (i = 0; i < supplyChanges.length; i++) {
         console.log(`Removed ` + Math.abs(x) + ` parts.`);
     }
 }
-console.log(`---------------------------------------------------`);
+
 // STRETCH GOALS
 console.log('---  Stretch Goals  ---');
 // // 7. Rewrite the `for` loop from #6 as a `for of` loop. 
@@ -57,7 +56,7 @@ for (let supplyChange of supplyChanges) {
         console.log(`Removed ` + Math.abs(supplyChange) + ` parts.`);
     }
 }
-console.log(`---------------------------------------------------`);
+
 // // 8. Rewrite the `for` loop from #6 as a `while` loop.
 console.log('8. Showing supplyChanges with "while" loop');
 i = 0;
